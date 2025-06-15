@@ -11,7 +11,7 @@ return {
     zipCode
 };
 }
-//Constructo function
+//Constructor function
 function Address (street, city, zipCode){
     this.street=street;
     this.city=city;
