@@ -79,3 +79,4 @@ count ++;
 
 return count;
 }
+//should return 3
