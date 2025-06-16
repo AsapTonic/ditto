@@ -4,17 +4,17 @@
 
 
 //this first method is the simpler method from the Finding Elements videos.
-// //create my array
-// const numbers=[1,2,3,4];
+//create my array
+const numbers=[1,2,3,4];
 
-// //".includes" is method that is used to check if something exists inside something, in this case its an array.
-// console.log(numbers.includes(-1));
-// //
-// function includes(array, searchElements){
+//".includes" is method that is used to check if something exists inside something, in this case its an array.
+console.log(numbers.includes(-1));
+//
+function includes(array, searchElements){
 
-// console.log(numbers.indexOf(1));
+console.log(numbers.indexOf(1));
 
-// }
+}
 
 
 //Mosh solution:
