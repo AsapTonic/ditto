@@ -18,13 +18,14 @@
 
 // };
 
+//
 
 //remember to use "new" tag and capital first letter when calling constructor functions
 let post = new Post('a','b','c');
 console.log (post);
 //less parameters for a function the better, so only log author, title, body
 function Post(title, body, author){
-//".this" = set the name of the new property being created
+//"this." = set the name of the new property being created
 this.title=title;
 this.body=body;
 this.author=author;
