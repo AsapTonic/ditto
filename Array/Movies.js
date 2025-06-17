@@ -15,11 +15,13 @@ const movies=[
 ];
 
 function listMovies(){
+
+    //for/ of loop to go through my array
     
     for(let movie of movies)
-        
+        //log the movie titles from the array on the console
         console.log(movie.title);
         
 }
-
+//calls the function
 listMovies();
