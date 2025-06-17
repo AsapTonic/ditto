@@ -3,9 +3,10 @@
 
 //circle.radius=2;
 
-
+//circle object
 const circle={
 radius: 1,
+// getter function that squares the radius of the circle whenever called
 get area(){
 return Math.PI * this.radius * this.radius;
 
